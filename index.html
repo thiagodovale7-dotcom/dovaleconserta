@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thiago do Vale | Técnico em informática em Fortaleza</title>
+  <meta name="description" content="Montagem, manutenção, formatação, redes e venda de peças para computadores na Aldeota, Fortaleza. Fale com Thiago do Vale pelo WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <a class="marca" href="#inicio">Thiago do Vale</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav id="menu" class="menu">
+    <a href="#servicos">Serviços</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <svg class="trilhas" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path d="M0 80 H220 L260 120 H520 L560 80 H800"/>
+      <path d="M0 200 H140 L180 240 H420 L460 200 H800"/>
+      <path d="M0 320 H300 L340 280 H620 L660 320 H800"/>
+      <circle cx="220" cy="80" r="6"/><circle cx="560" cy="80" r="6"/>
+      <circle cx="140" cy="200" r="6"/><circle cx="460" cy="200" r="6"/>
+      <circle cx="300" cy="320" r="6"/><circle cx="660" cy="320" r="6"/>
+    </svg>
+    <div class="hero-conteudo">
+      <p class="hero-local">Técnico em informática · Aldeota, Fortaleza</p>
+      <h1>Seu computador de volta funcionando, do jeito que você precisa.</h1>
+      <p class="hero-texto">Eu monto, conserto, formato e configuro redes. Explico o problema em palavras simples e só faço o que precisa ser feito.</p>
+      <div class="hero-acoes">
+        <a class="btn btn-zap" href="https://wa.me/5585997724551?text=Ol%C3%A1%20Thiago%2C%20vim%20pelo%20seu%20site%20e%20preciso%20de%20ajuda%20com%20meu%20computador." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn btn-linha" href="#servicos">Ver serviços</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="servicos">
+    <h2>O que eu faço</h2>
+    <ul class="servicos">
+      <li>
+        <h3>Montagem de computadores</h3>
+        <p>Escolho as peças para o seu uso e orçamento, monto, testo e entrego pronto para ligar.</p>
+      </li>
+      <li>
+        <h3>Manutenção</h3>
+        <p>Limpeza, troca de pasta térmica, upgrade de memória e SSD, e diagnóstico de lentidão e travamentos.</p>
+      </li>
+      <li>
+        <h3>Formatação e instalação de software</h3>
+        <p>Sistema limpo, drivers, programas e backup dos seus arquivos antes de começar.</p>
+      </li>
+      <li>
+        <h3>Redes</h3>
+        <p>Montagem e manutenção de redes para casa e pequenas empresas: cabeamento, roteador e Wi-Fi que chega em todos os cômodos.</p>
+      </li>
+      <li>
+        <h3>Venda de peças</h3>
+        <p>Memórias, SSDs, fontes, placas, cabos e outros itens, com indicação do que serve para o seu computador.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="secao secao-clara" id="depoimentos">
+    <h2>Quem já trouxe o computador</h2>
+    <p class="intro">Arraste o controle de cada foto para comparar o antes e o depois.</p>
+    <div class="depoimentos" id="lista-depoimentos"></div>
+  </section>
+
+  <section class="secao contato" id="contato">
+    <h2>Vamos conversar</h2>
+    <p class="intro">Me conte o que está acontecendo com o seu equipamento e eu respondo com o que precisa ser feito.</p>
+    <dl class="dados">
+      <div><dt>WhatsApp</dt><dd><a href="https://wa.me/5585997724551" target="_blank" rel="noopener">(85) 99772-4551</a></dd></div>
+      <div><dt>E-mail</dt><dd><a href="mailto:thiagodovale@gmail.com">thiagodovale@gmail.com</a></dd></div>
+      <div><dt>Endereço</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=Avenida+Dom+Lu%C3%ADs+1200+Aldeota+Fortaleza" target="_blank" rel="noopener">Avenida Dom Luís, 1200, Aldeota</a></dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer class="rodape">
+  <p>© <span id="ano"></span> Thiago do Vale Fernandes</p>
+</footer>
+
+<a class="flutuante" href="https://wa.me/5585997724551" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>
